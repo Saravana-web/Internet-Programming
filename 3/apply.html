@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Registration</title>
+</head>
+
+<style>
+
+body{
+font-size:25px;
+}
+
+
+</style>
+
+<body>
+
+<center>
+
+<h2>Job Portal Registration</h2>
+
+<form onsubmit="return check()">
+Name: <input type="text" id="name" required><br><br>
+
+Email: <input type="text" id="email" required><br><br>
+
+Password: <input type="password" id="pass" required><br><br>
+
+Phone: <input type="text" id="phone" required><br><br>
+
+Job Role:
+<select id="role">
+<option value="">Select</option>
+<option>Developer</option>
+<option>Designer</option>
+<option>Manager</option>
+</select>
+<br><br>
+
+<input type="submit" value="Register" id="bt" style="color:green; font-size:25px;">
+</form>
+
+</center>
+
+<script src="script.js"></script>
+
+</body>
+</html>
